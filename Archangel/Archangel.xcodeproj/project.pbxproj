@@ -13,6 +13,12 @@
 		06298644204231B100DA5716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06298642204231B100DA5716 /* Main.storyboard */; };
 		06298646204231B100DA5716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06298645204231B100DA5716 /* Assets.xcassets */; };
 		06298649204231B100DA5716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06298647204231B100DA5716 /* LaunchScreen.storyboard */; };
+		06F1A8442042CECA00A47B2A /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 06F1A8432042CECA00A47B2A /* Inceptionv3.mlmodel */; };
+		06F1A84E2042D52700A47B2A /* AVCaptureDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1A84B2042D52700A47B2A /* AVCaptureDevice+Extension.swift */; };
+		06F1A84F2042D52700A47B2A /* VideoCameraType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1A84C2042D52700A47B2A /* VideoCameraType.swift */; };
+		06F1A8502042D52700A47B2A /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1A84D2042D52700A47B2A /* VideoCapture.swift */; };
+		06F1A8522042DB3000A47B2A /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1A8512042DB3000A47B2A /* Logic.swift */; };
+		06F1A8542042DC5800A47B2A /* ARBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F1A8532042DC5800A47B2A /* ARBridge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		06298645204231B100DA5716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06298648204231B100DA5716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0629864A204231B100DA5716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F1A8432042CECA00A47B2A /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		06F1A84B2042D52700A47B2A /* AVCaptureDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVCaptureDevice+Extension.swift"; sourceTree = "<group>"; };
+		06F1A84C2042D52700A47B2A /* VideoCameraType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCameraType.swift; sourceTree = "<group>"; };
+		06F1A84D2042D52700A47B2A /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		06F1A8512042DB3000A47B2A /* Logic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
+		06F1A8532042DC5800A47B2A /* ARBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARBridge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,10 @@
 		0629863B204231B100DA5716 /* Archangel */ = {
 			isa = PBXGroup;
 			children = (
+				06F1A8532042DC5800A47B2A /* ARBridge.swift */,
+				06F1A8512042DB3000A47B2A /* Logic.swift */,
+				06F1A84A2042D4F800A47B2A /* VideoCapture2 */,
+				06F1A8432042CECA00A47B2A /* Inceptionv3.mlmodel */,
 				0629863C204231B100DA5716 /* AppDelegate.swift */,
 				0629863E204231B100DA5716 /* art.scnassets */,
 				06298640204231B100DA5716 /* ViewController.swift */,
@@ -65,6 +81,16 @@
 				0629864A204231B100DA5716 /* Info.plist */,
 			);
 			path = Archangel;
+			sourceTree = "<group>";
+		};
+		06F1A84A2042D4F800A47B2A /* VideoCapture2 */ = {
+			isa = PBXGroup;
+			children = (
+				06F1A84B2042D52700A47B2A /* AVCaptureDevice+Extension.swift */,
+				06F1A84C2042D52700A47B2A /* VideoCameraType.swift */,
+				06F1A84D2042D52700A47B2A /* VideoCapture.swift */,
+			);
+			path = VideoCapture2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +167,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				06298641204231B100DA5716 /* ViewController.swift in Sources */,
+				06F1A8542042DC5800A47B2A /* ARBridge.swift in Sources */,
+				06F1A84E2042D52700A47B2A /* AVCaptureDevice+Extension.swift in Sources */,
+				06F1A8442042CECA00A47B2A /* Inceptionv3.mlmodel in Sources */,
+				06F1A8522042DB3000A47B2A /* Logic.swift in Sources */,
+				06F1A84F2042D52700A47B2A /* VideoCameraType.swift in Sources */,
+				06F1A8502042D52700A47B2A /* VideoCapture.swift in Sources */,
 				0629863D204231B100DA5716 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
